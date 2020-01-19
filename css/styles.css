@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3f0002;
+}
+.wrapper{
+    max-width: 986px;
+    margin: auto;
+}
+header{
+    padding-top: 20px;
+    border-top:solid 40px #af2024;
+}
+.video{
+    max-width: 710px;
+    margin: auto;
+    position: relative;
+    top: 69px;
+}
+.video_title{
+    padding: 27px 18px;
+    background-color: #98161b;
+    color: white;
+    font-family: "Arvo" , serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.for_movie{
+    padding: 64px 74px 128px;
+    background-color: white;
+}
+.movie{
+    width: 567px;
+    height: 345px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.movie:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 54px solid #98161b;
+    border-bottom: 25px solid transparent;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: -50px;
+}
+.border{
+    color: #98161b;
+    font-size: 13px;
+    font-family: "Arvo";
+    font-weight: bold;
+}
+.day{
+    color: #7d7d7d;
+    font-family: "Arvo" , serif;
+    font-weight: normal;
+}
+.border:after{
+    content: "";
+    margin-top: 15px;
+    width: 43px;
+    height: 1px;
+    display: block;
+    border-bottom: dotted 2px #98161b;
+}
+.video p{
+    color: #98161b;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Arvo" , serif;
+    line-height: 18px;
+    margin-top: 18px;
+}
+.background{
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+}
+.background img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: -206px;
+}
+.bg_img{
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 33px;
+}
+.soc_icon i{
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+    color: white;
+}
+.fa-facebook-f{
+    position: fixed;
+    right: 0px;
+    top: 350px;
+    background-color: #850409;
+    font-size: 33px;
+}
+.fa-twitter{
+    position: fixed;
+    right: 0;
+    top: 400px;
+    background-color: #98161b;
+    font-size: 27px;
+}
+footer{
+    height: 455px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    z-index: -1;
+}
